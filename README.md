@@ -1,1 +1,13 @@
 # 3Xtool
+
+install:
+
+apt update && apt upgrade -y
+
+pkg install colorama
+
+git clone https://github.com/HoxaFacts/3Xtool.git
+
+cd 3Xtool
+
+python3 Xtool.py
