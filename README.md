@@ -4,7 +4,7 @@ install:
 
 apt update && apt upgrade -y
 
-pkg install colorama
+pip install colorama
 
 git clone https://github.com/HoxaFacts/3Xtool.git
 
